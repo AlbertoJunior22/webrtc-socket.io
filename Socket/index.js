@@ -8,6 +8,7 @@ const io = new Server(server, {cors: {
     methods: ["GET", "POST"]
 }});
 
+
 io.on('connection', (socket) => {
   
     console.log('New connection')
